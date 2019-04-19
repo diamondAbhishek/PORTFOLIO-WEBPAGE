@@ -327,11 +327,7 @@
     $('.port-item').click(function () {
       $('.collapse').collapse('hide');
     });
-    
-    $('.port-item').on('show hide', function() {
-    $(this).css('height', 'auto');
-    });
-
+   
     $(document).on('click', '[data-toggle="lightbox"]', function (e) {
       e.preventDefault();
       $(this).ekkoLightbox();
